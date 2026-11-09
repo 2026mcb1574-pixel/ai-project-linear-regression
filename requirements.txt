@@ -1,0 +1,10 @@
+python==3.14.6
+pandas==3.0.6
+numpy==2.5.3
+scikit-learn==1.9.1
+matplotlib==3.11.2
+joblib==1.6.0
+ipython==9.16.1
+ipykernal==7.3.0
+jupyter-client==8.9.1
+jupyter-core==5.9.1
