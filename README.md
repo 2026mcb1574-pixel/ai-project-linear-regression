@@ -37,7 +37,7 @@ Cellular-Network-Signal-Prediction/
 
 ### Prerequisites
 
-- Python 3.10 or above
+- Python 3.13.14 or above
 - Jupyter Notebook
 - pip (Python package installer)
 - Git (optional, for cloning the repository)
@@ -111,7 +111,7 @@ After successfully executing the notebooks, the project produces:
 | MAE | 12.2973 |
 | MSE | 210.4448 |
 | RMSE | 14.5067 |
-| R² Score | 0.0671 |
+| R² Score | 0.0671|
 
 ### Output Screenshots
 
@@ -131,3 +131,4 @@ After successfully executing the notebooks, the project produces:
 ## 7. AI-Use Disclosure
 
 ChatGPT was used as a supporting tool during this project for understanding machine learning concepts, debugging code, resolving errors, and improving documentation. The project implementation, model execution, result analysis, and final decisions were carried out and reviewed by the team.
+
