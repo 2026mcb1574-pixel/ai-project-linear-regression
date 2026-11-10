@@ -4,12 +4,15 @@ A machine learning project that predicts cellular network signal strength (dBm) 
 
 ## 1. Team and Roles
 
-| Team Member | Role |
-|---|---|
-| Aadarsh | Execution Lead |
-| Sumit | Documentation Lead |
-| Sumeksha | PPT Lead |
-| Palak | Video Lead |
+## 1. Team and Roles
+
+| Team Member      | Role               | GitHub Username                                                |
+| ---------------- | ------------------ | -------------------------------------------------------------- |
+| Aadarsh Awlasiya | Execution Lead     | [@2026aib1004-ship-it](https://github.com/2026aib1004-ship-it) |
+| Sumit            | Documentation Lead | [@2026mcb1574-pixel](https://github.com/2026mcb1574-pixel)     |
+| Palak Tripathi   | Video lead         | [@PalakTripathi49](https://github.com/PalakTripathi49)         |
+| Sumeksha         | PPT lead           | [@Sumeksha1](https://github.com/Sumeksha1)                     |
+
 
 ## 2. Project Structure
 
