@@ -127,7 +127,4 @@ After successfully executing the notebooks, the project produces:
 
 ## 7. AI-Use Disclosure
 
-AI tools were used as supplementary assistance during the development of this project for understanding concepts, debugging code, and improving documentation.
-
-The project implementation, execution, analysis, and evaluation were carried out as part of the team's academic work. AI assistance was used to support the development process and not as a replacement for understanding the project.
-
+ChatGPT was used as a supporting tool during this project for understanding machine learning concepts, debugging code, resolving errors, and improving documentation. The project implementation, model execution, result analysis, and final decisions were carried out and reviewed by the team.
