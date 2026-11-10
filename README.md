@@ -1,31 +1,133 @@
 # Predicting Cellular Network Signal Strength Using Linear Regression
 
-## 1. Project Overview
+A machine learning project that predicts cellular network signal strength (dBm) using environmental and network-related parameters through Linear Regression.
 
-This project aims to predict cellular network signal strength using environmental and network-related parameters through a Linear Regression machine learning model.
+## 1. Team and Roles
 
-The model uses parameters such as SNR, Attenuation, Distance to Tower, and Environment to predict signal strength in dBm.
+| Team Member | Role |
+|---|---|
+| Aadarsh | Execution Lead |
+| Sumit | Documentation Lead |
+| Sumeksha | PPT Lead |
+| Palak | Video Lead |
 
-## 2. Team Members and Roles
+## 2. Project Structure
 
-| Team Member | Role | GitHub Username |
-|---|---|---|
-| Aadarsh | Execution Lead |  |
-| Sumit | Documentation Lead |  |
-| Sumeksha | PPT Lead |  |
-| Palak | Video Lead |  |
+```text
+Cellular-Network-Signal-Prediction/
+│
+├── data/
+│
+├── README.md
+├── train.csv
+├── linear-regression.ipynb
+├── data_visualization.ipynb
+├── requirements.txt
+│
+├── actual_vs_predicted.png
+├── signal_vs_environment.png
+│
+└── testing_results.csv
+```
 
-## 3. Dataset Description
+## 3. Setup
 
-The project uses a cellular network dataset containing environmental and network parameters.
+### Prerequisites
 
-**Dataset file:** `data/train_aiproject.csv`
+- Python 3.10 or above
+- Jupyter Notebook
+- pip (Python package installer)
+- Git (optional, for cloning the repository)
 
-Important features:
-- SNR
-- Attenuation
-- Distance to Tower (km)
-- Environment
+### Required Libraries
 
-**Target variable:** Signal Strength (dBm)
+All required Python libraries are listed in `requirements.txt`.
+
+To install the dependencies, run:
+
+```bash
+pip install -r requirements.txt
+```
+
+## 4. Steps to Run
+
+Follow these steps in the given order to execute the project.
+
+**Step 1: Clone the Repository**
+
+```bash
+git clone <repository-url>
+```
+
+**Step 2: Navigate to the Project Directory**
+
+```bash
+cd <repository-folder>
+```
+
+**Step 3: Install Dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+**Step 4: Start Jupyter Notebook**
+
+```bash
+jupyter notebook
+```
+
+**Step 5: Run Data Visualization**
+
+Open `data_visualization.ipynb` and execute all cells to explore the dataset and generate visualizations.
+
+**Step 6: Run the Linear Regression Model**
+
+Open `linear-regression.ipynb` and execute all cells in order to:
+
+- Load and preprocess the dataset.
+- Select input features and target variable.
+- Split the dataset into training and testing sets.
+- Train the Linear Regression model.
+- Generate predictions.
+- Calculate evaluation metrics.
+
+## 5. Expected Output
+
+After successfully executing the notebooks, the project produces:
+
+- Actual vs Predicted Signal Strength visualization.
+- Signal Strength vs Environment visualization.
+- Predicted signal strength values.
+- Model evaluation metrics.
+
+### Model Evaluation Results
+
+| Metric | Value |
+|---|---:|
+| MAE | 12.2973 |
+| MSE | 210.4448 |
+| RMSE | 14.5067 |
+| R² Score | 0.0671 |
+
+### Output Screenshots
+
+**Actual vs Predicted Signal Strength**
+
+![Actual vs Predicted](actual_vs_predicted.png)
+
+**Signal Strength vs Environment**
+
+![Signal vs Environment](signal_vs_environment.png)
+
+## 6. Project Links
+
+- **Presentation Slides:** [Add presentation link here]
+- **Project Demonstration Video:** [Add video link here]
+
+## 7. AI-Use Disclosure
+
+AI tools were used as supplementary assistance during the development of this project for understanding concepts, debugging code, and improving documentation.
+
+The project implementation, execution, analysis, and evaluation were carried out as part of the team's academic work. AI assistance was used to support the development process and not as a replacement for understanding the project.
 
