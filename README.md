@@ -56,36 +56,51 @@ pip install -r requirements.txt
 
 Follow these steps in the given order to execute the project.
 
-**Step 1: Clone the Repository**
+**Step 1:Go to your preferred folder**
 
+open CMD.
+Go to the folder where want to clone the Repository.
 ```bash
+cd path\to\your\folder
 git clone <repository-url>
 ```
 
-**Step 2: Navigate to the Project Directory**
+**Step 2: Clone the Repository**
 
 ```bash
-cd <repository-folder>
+git clone https://github.com/2026mcb1574-pixel/ai-project-linear-regression
+
+```
+**Step 3: Enter the cloned Repository**
+
+```bash
+cd ai-project-linear-regression
 ```
 
-**Step 3: Install Dependencies**
+**Step 4: Create a python virtual environment** 
 
+```bash
+python-m venv.venv
+```
+
+**Step 5: Activating the virtual environment**
+
+```bash
+.venv\Scripts\activate
+```
+
+**Step 6: Installing requirements**
 ```bash
 pip install -r requirements.txt
 ```
-
-**Step 4: Start Jupyter Notebook**
-
+**step 7: open data_visualization**
 ```bash
-jupyter notebook
+code data_visualization.ipynb
 ```
-
-**Step 5: Run Data Visualization**
-
-Open `data_visualization.ipynb` and execute all cells to explore the dataset and generate visualizations.
-
-**Step 6: Run the Linear Regression Model**
-
+**step 8: Open the linear-regression.ipynb**
+```bash
+code linear-regression.ipynb
+```
 Open `linear-regression.ipynb` and execute all cells in order to:
 
 - Load and preprocess the dataset.
