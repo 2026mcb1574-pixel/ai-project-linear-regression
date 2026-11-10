@@ -55,13 +55,13 @@ print("\nColumn names:")
 print(df.columns.tolist())
 
 print("\nFirst five rows:")
-display(df.head())
+print(df.head())
 
 print("\nData types and missing-value overview:")
 df.info()
 
 print("\nSummary of numeric columns:")
-display(df.describe())
+print(df.describe())
 
 
 # In[17]:
@@ -119,7 +119,7 @@ feature_columns = [
 
 print("Target Column:", target_column)
 print("Feature Columns:", feature_columns)
-display(df[[target_column] + feature_columns].head())
+print(df[[target_column] + feature_columns].head())
 
 
 # In[20]:

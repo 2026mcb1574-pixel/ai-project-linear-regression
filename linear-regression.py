@@ -6,7 +6,7 @@
 # In[4]:
 
 
-get_ipython().run_line_magic('pip', 'install scikit-learn pandas numpy matplotlib')
+
 
 
 # In[5]:
@@ -34,11 +34,11 @@ print("Dimensions of dataset:", df.shape)
 print("\nColumn names:")
 print(df.columns.tolist())   
 print("\nFirst five rows:")
-display(df.head())
+print(df.head())
 print("\nData types and missing-value overview:")
-display(df.info())
+print(df.info())
 print("\nSummary of numeric columns:")
-display(df.describe())
+print(df.describe())
 
 
 # In[10]:
@@ -56,7 +56,7 @@ if missing_columns:
 else:
     print("Target:", target_column)
     print("Features:", feature_columns)
-    display(df[[target_column] + feature_columns].head())
+    print(df[[target_column] + feature_columns].head())
 
 
 # In[11]:
@@ -142,7 +142,7 @@ results = pd.DataFrame({
     "Error (Actual - Predicted)": y_test.to_numpy() - y_pred
 })
 
-display(results.head(10))
+print(results.head(10))
 
 
 # In[17]:
@@ -226,7 +226,7 @@ error_metrics = pd.DataFrame({
     'Value': [mae, mse, rmse, r2]
 })
 
-display(error_metrics)
+print(error_metrics)
 
 results = pd.DataFrame({
     'Actual Signal Strength': np.array(y_test).flatten(),
@@ -234,5 +234,5 @@ results = pd.DataFrame({
     'Error (Actual - Predicted)': np.array(y_test).flatten() - np.array(y_pred).flatten()
 })
 
-display(results.head(10))
+print(results.head(10))
 
