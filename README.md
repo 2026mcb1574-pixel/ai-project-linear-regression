@@ -6,12 +6,12 @@ A machine learning project that predicts cellular network signal strength (dBm) 
 
 ## 1. Team and Roles
 
-| Team Member      | Role               | GitHub Username                                                |
-| ---------------- | ------------------ | -------------------------------------------------------------- |
-| Aadarsh Awlasiya | Execution Lead     | [@2026aib1004-ship-it](https://github.com/2026aib1004-ship-it) |
-| Sumit            | Documentation Lead | [@2026mcb1574-pixel](https://github.com/2026mcb1574-pixel)     |
-| Palak Tripathi   | Video lead         | [@PalakTripathi49](https://github.com/PalakTripathi49)         |
-| Sumeksha         | PPT lead           | [@Sumeksha1](https://github.com/Sumeksha1)                     |
+| Team Member      | Entry Number    | Role               | GitHub Username                                                |
+| ---------------- | --------------- | ------------------ | -------------------------------------------------------------- |
+| Aadarsh Awlasiya | 2026AIB1004     | Execution Lead     | [@2026aib1004-ship-it](https://github.com/2026aib1004-ship-it) |
+| Sumit            | 2026MCB1574     | Documentation Lead | [@2026mcb1574-pixel](https://github.com/2026mcb1574-pixel)     |
+| Palak Tripathi   | 2026EEB1388     | Video lead         | [@PalakTripathi49](https://github.com/PalakTripathi49)         |
+| Sumeksha         | 2026EEB1416     | PPT lead           | [@Sumeksha1](https://github.com/Sumeksha1)                     |
 
 
 ## 2. Project Structure
@@ -145,5 +145,5 @@ After successfully executing the notebooks, the project produces:
 
 ## 7. AI-Use Disclosure
 
-ChatGPT was used as a supporting tool during this project for understanding machine learning concepts, debugging code, resolving errors, and improving documentation. The project implementation, model execution, result analysis, and final decisions were carried out and reviewed by the team.
+ChatGPT and Claude was used as a supporting tool during this project for understanding machine learning concepts, debugging code, resolving errors, and improving documentation. The project implementation, model execution, result analysis, and final decisions were carried out and reviewed by the team.
 
