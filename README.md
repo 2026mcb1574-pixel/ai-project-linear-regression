@@ -140,7 +140,7 @@ After successfully executing the notebooks, the project produces:
 ## 6. Project Links
 
 - **Presentation Slides:** https://drive.google.com/file/d/1rNJJSAggxKBO8TC7akVyiYIN4tNsYb6b/view?usp=drivesdk
-- **Project Demonstration Video:** [Add video link here]
+- **Project Demonstration Video:** https://drive.google.com/file/d/1EH-OA3kzuNRiY7KQvTQlhg5-foV2wwAm/view?usp=drivesdk
 
 ## 7. AI-Use Disclosure
 
