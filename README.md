@@ -2,7 +2,6 @@
 
 A machine learning project that predicts cellular network signal strength (dBm) using environmental and network-related parameters through Linear Regression.
 
-## 1. Team and Roles
 
 ## 1. Team and Roles
 
